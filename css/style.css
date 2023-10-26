@@ -22,6 +22,10 @@ html{
     clear: both;
 }
 
+h1{
+    font-size: 3em;
+}
+
 a{
     color: lightblue;
 }
@@ -52,9 +56,12 @@ a{
 .card{
     float: left;
     background-color: rgb(15, 14, 22);
+    width: calc(90% / 3);
     height: auto;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: calc(10% / 3);
+    box-shadow: 2px 2px .3em rgb(15, 14, 22);
 }
 
 img{

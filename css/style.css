@@ -1,0 +1,73 @@
+/* 
+    RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a{
+    color: lightblue;
+}
+
+.color-pink{
+    color: rgb(211, 67, 112);
+}
+
+.padding-bottom{
+    padding-bottom: 40px;
+}
+
+
+/* 
+    BODY
+*/
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.columns > *{
+    width: calc(100% / 3);
+}
+
+.card{
+    float: left;
+    background-color: rgb(15, 14, 22);
+    height: auto;
+    color: white;
+    margin-bottom: 20px;
+}
+
+img{
+    float: left;
+    width: 120px;
+    height: auto;
+}
+
+.text-card{
+    display: inline-block;
+    text-align: left;
+}
+
+.text-card > *, a{
+    margin: 10px 0;
+}
